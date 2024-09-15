@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1f2023; /* Ensure the entire background is #1f2023 */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-template-rows: repeat(2, 100px); /* Creates 2 rows with 100px height */
+    gap: 10px; /* Adds spacing between grid items */
+  }
+
+body {
+    background-color: #1f2023;
+}
